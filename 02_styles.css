@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body, .html .css {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  }
+ 
+section{
+  padding: 16px; 
+}
+
+header h1{
+  margin-left: 40px;
+}
+.re {
+  text-align: center;
+}
+
+.info{
+display: flex;
+}
+
+@media(max-width:650px){
+  .info{
+    display: block;
+    text-align: center;
+  }
+}
+
+header p {
+  font-style:italic;
+  margin: 0px;
+}
+
+.card-wrapper {
+  background: linear-gradient(to left, #d3cce3, #e9e4f0);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 10px 0 0;
+  margin-left: 40px;
+}
+
+@media(max-width:650px){
+  .card-wrapper{
+    margin-left:0px;
+  }
+}
+
+.card_shadow{
+  box-shadow: none;
+  transition:box-shadow 300ms, transform 300ms;
+  transform:scale(1);
+ }
+.card_shadow:hover{
+  box-shadow: 0px 21px 15px -3px rgba(0, 0, 0, 0.2);
+  transform:scale(1.05);
+}
+
+.field {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.photo {
+  border-radius: 10% 30% 50% 70%;
+  display: inline-block;
+  margin: auto;
+  width: 250px;
+  /* height: 250px; */
+  box-shadow: 10px 4px 30px rgba(0, 0, 0, 1);
+  transition:all .2s;
+}
+
+.photo:hover{
+  width: 280px;
+  height: 280px;
+}
+
+
+
+.social{
+  border-left: 2px solid pink;
+  padding: 1px 2px 10px 10px;
+  background: linear-gradient(to left, #d9a7c7, #fffcdc); 
+  border-top-right-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+@media(max-width:650px){
+  .social{
+    margin-left: 0px;
+  }
+}
+
+.hobbie{
+  background: linear-gradient(to right, #e8cbc0, #7987c3); 
+  padding: 1px 2px 2px 10px;
+  margin-top: 20px;
+  border-radius: 0 10px 0 0;
+}
+
+.jobs {
+  background: linear-gradient(to left, #efefbb, #d4d3dd); 
+  border-radius: 0 10px 0 0;
+  padding: 2px 2px 20px 10px;
+  margin-top: 20px;
+}
+
+.connection {
+  background: linear-gradient(to right, #dae2f8, #d6a4a4); 
+  padding: 1px 2px 20px 20px;
+  margin-top: 20px;
+  border-left: 2px solid pink;
+  border-radius: 0 10px 0 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(178, 71, 144);
+  transition:all .2s;
+}
+
+a:hover{
+  color: rgba(255, 0, 0, 0.393);
+  font-size: 20px;
+}
+
+a:active{
+  color: #15156a;
+}
+
+.btn{
+  padding: 10px 15px;
+  cursor:pointer;
+  font-family: inherit;
+  border-radius:5px;
+  border-width:1px;
+  transition:all .2s;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity:0.7;
+  background:rgb(211, 185, 208);
+}
+
+
+
+.table{
+width: 90%
+}
+
+.table tr td:hover{
+  background: rgba(255, 0, 0, 0.393)
+}
+
+.table td{
+  text-align: center;
+}
+
+.table tr td {
+  padding:5px;
+
+}
+
+.list{
+  transition: font-size 300ms;
+}
+
+.list:hover{
+  font-size: 19px;
+}
+
+.form-row{
+  margin-bottom: 10px;
+  display: flex;
+}
+
+@media (max-width:650px){
+  .form-row{
+    display: block;
+  }
+  .form-row .form-group{
+    margin-top: 20px;
+  }
+}
+
+.form-row .form-group{
+ 
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;;
+  /* width: 46%; */
+  /* width: calc(50%-20px) */
+}
+
+.form-row .form-group:last-child {
+  margin-right:0;
+}
+.form-group label{
+  display: block;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border:none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  display: inline-block;
+}
+
